@@ -28,6 +28,18 @@ fun main() {
         println("Car is $car")
     }
 
+    for (a in 10..20){
+        if (a==16){
+            break
+        }
+        println("number is $a")
+    }
+for(x in 25..45){
+    if (x==30){
+        continue
+    }
+    println("number is $x")
+}
 
 
 
